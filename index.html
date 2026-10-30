@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>นางสาวสวย 🍉 สาวแซ่บวัย 21 กับความคลั่งรักแตงโม</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700;800&family=Mali:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            kanit: ['Kanit', 'sans-serif'],
+            cute: ['Mali', 'cursive'],
+          },
+          colors: {
+            melon: {
+              red: '#FF2A55',
+              pink: '#FF6489',
+              light: '#FFE4E8',
+              green: '#10B981',
+              darkgreen: '#047857',
+              crust: '#064E3B'
+            }
+          },
+          animation: {
+            'bounce-slow': 'bounce 2.5s infinite',
+            'float': 'floating 3s ease-in-out infinite',
+            'pulse-glow': 'pulseGlow 2s infinite',
+          },
+          keyframes: {
+            floating: {
+              '0%, 100%': { transform: 'translateY(0px) rotate(0deg)' },
+              '50%': { transform: 'translateY(-12px) rotate(3deg)' }
+            },
+            pulseGlow: {
+              '0%, 100%': { boxShadow: '0 0 25px rgba(255, 42, 85, 0.4)' },
+              '50%': { boxShadow: '0 0 45px rgba(255, 42, 85, 0.8)' }
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background: linear-gradient(135deg, #FFF0F3 0%, #FFE3E8 50%, #E8F5E9 100%);
+      font-family: 'Kanit', sans-serif;
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.82);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 2px solid rgba(255, 255, 255, 0.6);
+    }
+    .text-shadow {
+      text-shadow: 2px 2px 8px rgba(255, 42, 85, 0.25);
+    }
+    .floating-seeds {
+      position: absolute;
+      pointer-events: none;
+      user-select: none;
+    }
+  </style>
+</head>
+<body class="min-h-screen text-gray-800 relative overflow-x-hidden selection:bg-melon-pink selection:text-white">
+
+  <!-- Background Animated Watermelon Elements -->
+  <div class="fixed inset-0 pointer-events-none overflow-hidden z-0 opacity-40">
+    <span class="floating-seeds text-5xl animate-float top-12 left-10" style="animation-delay: 0s;">🍉</span>
+    <span class="floating-seeds text-4xl animate-float top-1/4 right-12" style="animation-delay: 1s;">✨</span>
+    <span class="floating-seeds text-6xl animate-float bottom-24 left-16" style="animation-delay: 1.5s;">🍉</span>
+    <span class="floating-seeds text-3xl animate-float bottom-1/3 right-1/4" style="animation-delay: 2s;">💖</span>
+    <span class="floating-seeds text-5xl animate-float top-2/3 right-8" style="animation-delay: 0.5s;">🍉</span>
+  </div>
+
+  <main class="relative z-10 max-w-4xl mx-auto px-4 py-8 md:py-16">
+    
+    <!-- Hero Profile Section -->
+    <header class="glass-card rounded-3xl p-6 md:p-12 shadow-2xl mb-10 text-center relative overflow-hidden border-melon-pink/20">
+      <div class="absolute -top-12 -right-12 w-48 h-48 bg-gradient-to-br from-melon-pink to-melon-red rounded-full filter blur-3xl opacity-30"></div>
+      <div class="absolute -bottom-12 -left-12 w-48 h-48 bg-melon-green rounded-full filter blur-3xl opacity-20"></div>
+
+      <!-- Avatar with glowing border -->
+      <div class="relative inline-block mb-6 group">
+        <div class="w-44 h-44 md:w-52 md:h-52 rounded-full p-1.5 bg-gradient-to-tr from-melon-red via-melon-pink to-melon-green shadow-xl animate-pulse-glow transition-transform duration-300 group-hover:scale-105">
+          <div class="w-full h-full rounded-full overflow-hidden bg-white flex items-center justify-center border-4 border-white shadow-inner">
+            <img src="profile.png" alt="รูปโปรไฟล์นางสาวสวย" class="w-full h-full object-cover transition-transform duration-500 group-hover:rotate-6 group-hover:scale-110">
+          </div>
+        </div>
+        <span class="absolute bottom-2 right-2 bg-gradient-to-r from-melon-red to-melon-pink text-white px-3 py-1 rounded-full text-xs md:text-sm font-semibold shadow-lg flex items-center gap-1 border-2 border-white animate-bounce-slow">
+          <span>🍉 สวยแซ่บ 21+</span>
+        </span>
+      </div>
+
+      <!-- Title & Headline -->
+      <div class="space-y-2">
+        <h1 class="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-melon-red via-pink-600 to-melon-darkgreen tracking-tight font-cute text-shadow">
+          นางสาวสวย แซ่บเว่อร์ 🍉✨
+        </h1>
+        <p class="text-lg md:text-xl font-medium text-gray-600 max-w-xl mx-auto font-cute">
+          "อายุ 21 ปี สวย เซ็กซี่ ขี้เล่น เป็นกันเอง และคลั่งรักแตงโมที่สุดในสามโลก!"
+        </p>
+      </div>
+
+      <!-- Badges -->
+      <div class="flex flex-wrap justify-center gap-2.5 mt-6">
+        <span class="px-4 py-1.5 rounded-full text-sm font-semibold bg-rose-100 text-rose-700 border border-rose-200 shadow-sm flex items-center gap-1">
+          💋 เซ็กซี่ระดับสิบ
+        </span>
+        <span class="px-4 py-1.5 rounded-full text-sm font-semibold bg-pink-100 text-pink-700 border border-pink-200 shadow-sm flex items-center gap-1">
+          🎂 อายุ 21 ขวบ
+        </span>
+        <span class="px-4 py-1.5 rounded-full text-sm font-semibold bg-emerald-100 text-emerald-800 border border-emerald-200 shadow-sm flex items-center gap-1">
+          🍉 แตงโม Lover
+        </span>
+        <span class="px-4 py-1.5 rounded-full text-sm font-semibold bg-amber-100 text-amber-800 border border-amber-200 shadow-sm flex items-center gap-1">
+          ☀️ สดใสซาบซ่า
+        </span>
+      </div>
+    </header>
+
+    <!-- Interactive Watermelon Feeder (Clicker Game) -->
+    <section class="glass-card rounded-3xl p-6 md:p-8 shadow-xl mb-10 text-center border-t-4 border-melon-red">
+      <div class="max-w-md mx-auto">
+        <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-2 flex items-center justify-center gap-2 font-cute">
+          <span>🍉 ป้อนแตงโมให้น้องสวยหน่อย!</span>
+        </h2>
+        <p class="text-gray-500 text-sm mb-6">ยิ่งป้อนเยอะ ยิ่งสวยแซ่บ สถิติพุ่งทะลุปรอท!</p>
+
+        <!-- Big Clickable Watermelon Button -->
+        <button id="feedBtn" class="group relative inline-flex items-center justify-center p-6 bg-gradient-to-br from-red-500 via-rose-500 to-emerald-500 rounded-full shadow-2xl hover:scale-110 active:scale-95 transition-all duration-200 cursor-pointer border-4 border-white focus:outline-none">
+          <span class="text-7xl group-hover:scale-125 transition-transform duration-200 select-none">🍉</span>
+        </button>
+
+        <!-- Stats Counter -->
+        <div class="mt-6 flex justify-center items-center gap-6">
+          <div class="bg-white/80 rounded-2xl px-6 py-3 shadow-md border border-melon-light">
+            <div class="text-xs text-gray-500 font-semibold uppercase tracking-wider">แตงโมที่กินไปแล้ว</div>
+            <div id="counter" class="text-3xl md:text-4xl font-extrabold text-melon-red">0 ลูก</div>
+          </div>
+          <div class="bg-white/80 rounded-2xl px-6 py-3 shadow-md border border-melon-light">
+            <div class="text-xs text-gray-500 font-semibold uppercase tracking-wider">ระดับความแซ่บ</div>
+            <div id="spicyLevel" class="text-xl md:text-2xl font-bold text-emerald-600">ระดับ 1 🌶️</div>
+          </div>
+        </div>
+
+        <p id="quoteText" class="mt-4 text-sm font-cute text-pink-600 font-semibold italic min-h-[24px]">
+          "กดที่ลูกแตงโมด้านบน เพื่อเติมความหวานฉ่ำกันได้เลยค่ะ~"
+        </p>
+      </div>
+    </section>
+
+    <!-- Bio & Quirks Grid -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+      
+      <!-- Card 1: ตัวตนและความแซ่บ -->
+      <div class="glass-card rounded-3xl p-6 md:p-8 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-melon-pink">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-12 h-12 rounded-2xl bg-rose-500/10 flex items-center justify-center text-2xl">
+            💃
+          </div>
+          <h3 class="text-xl font-bold text-gray-800">เกี่ยวกับตัวฉัน</h3>
+        </div>
+        <ul class="space-y-3 text-gray-600 leading-relaxed">
+          <li class="flex items-start gap-2">
+            <span class="text-melon-red">✔</span>
+            <span><strong>ชื่อในวงการ:</strong> นางสาวสวย แซ่บสับไม่หลับใน</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-melon-red">✔</span>
+            <span><strong>อายุ:</strong> 21 ปี วัยกำลังสดใส รอยยิ้มกระชากใจ</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-melon-red">✔</span>
+            <span><strong>นิยามความเซ็กซี่:</strong> เซ็กซี่ไม่ได้อยู่ที่เสื้อผ้า แต่อยู่ที่อินเนอร์และความมั่นใจค่ะคุณน้า!</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-melon-red">✔</span>
+            <span><strong>นิสัย:</strong> ร่าเริง อารมณ์ดี หัวเราะง่าย แพ้ทางคนซื้อแตงโมมาฝาก</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Card 2: เมนูแตงโมสุดโปรด -->
+      <div class="glass-card rounded-3xl p-6 md:p-8 shadow-lg hover:shadow-xl transition-shadow border-l-4 border-melon-green">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-2xl">
+            🍹
+          </div>
+          <h3 class="text-xl font-bold text-gray-800">เมนูแตงโมในดวงใจ</h3>
+        </div>
+        <div class="space-y-3">
+          <div class="p-3 rounded-2xl bg-white/70 border border-gray-100 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <span class="text-2xl">🧃</span>
+              <span class="font-medium text-gray-700">แตงโมปั่นหวาน 100% สดชื่นสะบัด</span>
+            </div>
+            <span class="text-xs bg-red-100 text-red-600 font-bold px-2.5 py-1 rounded-full">อันดับ 1</span>
+          </div>
+          <div class="p-3 rounded-2xl bg-white/70 border border-gray-100 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <span class="text-2xl">🍧</span>
+              <span class="font-medium text-gray-700">บิงซูแตงโมลูกโต ราดนมฉ่ำๆ</span>
+            </div>
+            <span class="text-xs bg-pink-100 text-pink-600 font-bold px-2.5 py-1 rounded-full">เดอะเบสต์</span>
+          </div>
+          <div class="p-3 rounded-2xl bg-white/70 border border-gray-100 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <span class="text-2xl">🍉</span>
+              <span class="font-medium text-gray-700">แตงโมสดแช่เย็นเจี๊ยบ ผ่าครึ่งใช้ช้อนตัก</span>
+            </div>
+            <span class="text-xs bg-emerald-100 text-emerald-600 font-bold px-2.5 py-1 rounded-full">ฟินสุด</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Watermelon Fortune / Random Fun Quote -->
+    <section class="glass-card rounded-3xl p-6 md:p-8 shadow-xl mb-10 text-center bg-gradient-to-r from-rose-50 via-pink-50 to-emerald-50">
+      <h3 class="text-xl font-bold text-gray-800 mb-2 font-cute">🍉 เซียมซีแตงโมทายใจวันนี้</h3>
+      <p class="text-gray-500 text-sm mb-4">กดสุ่มคำคมแซ่บๆ สไตล์สาวอายุ 21</p>
+      
+      <div id="fortuneBox" class="p-5 rounded-2xl bg-white shadow-inner border border-pink-100 mb-4 max-w-lg mx-auto">
+        <p id="fortuneText" class="text-lg md:text-xl font-cute text-melon-red font-semibold">
+          "ชีวิตนี้ไม่มีอะไรหวานเท่ารอยยิ้มของฉัน... ยกเว้นแตงโมลูกนี้! 🍉💖"
+        </p>
+      </div>
+
+      <button id="randomQuoteBtn" class="px-6 py-2.5 rounded-full bg-gradient-to-r from-melon-red to-melon-pink text-white font-semibold text-sm shadow-md hover:shadow-lg hover:scale-105 active:scale-95 transition-all">
+        🎲 สุ่มคำคมใหม่
+      </button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-gray-500 text-sm py-6">
+      <p class="font-cute text-base text-gray-600 mb-1">
+        Made with 💖 & 🍉 by <strong class="text-melon-red">นางสาวสวย</strong> (อายุ 21 ปี)
+      </p>
+      <p class="text-xs text-gray-400">
+        Hosted with pride on <strong>GitHub Pages</strong> via <strong>GitHub CLI</strong>
+      </p>
+    </footer>
+
+  </main>
+
+  <script>
+    // Audio Synth Sound Effect
+    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    function playBoingSound() {
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(440, audioCtx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(880, audioCtx.currentTime + 0.15);
+      gain.gain.setValueAtTime(0.2, audioCtx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.15);
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      osc.start();
+      osc.stop(audioCtx.currentTime + 0.15);
+    }
+
+    // Watermelon Clicker Game Logic
+    let count = 0;
+    const feedBtn = document.getElementById('feedBtn');
+    const counter = document.getElementById('counter');
+    const spicyLevel = document.getElementById('spicyLevel');
+    const quoteText = document.getElementById('quoteText');
+
+    const feedQuotes = [
+      "งั่มมม! หวานฉ่ำชื่นใจมากก~ 🍉",
+      "แตงโมลูกนี้หวานเหมือนคนป้อนเลยนะเนี่ย 💖",
+      "เซ็กซี่ขึ้นอีก 100% พลังแตงโมทำงานแล้ว! ✨",
+      "อร่อยจนตาสว่าง! ขออีกชิ้นด่วนๆ 😋",
+      "สวยสดใสวัย 21 ขอบคุณสำหรับแตงโมนะค้า~ 🍉💃",
+      "แตงโมคือยาวิเศษ ยิ่งกินยิ่งแซ่บ! 🔥"
+    ];
+
+    feedBtn.addEventListener('click', (e) => {
+      count++;
+      counter.innerText = count + ' ลูก';
+      
+      // Update Spicy Level
+      if (count < 5) {
+        spicyLevel.innerText = 'ระดับ 1 🌶️';
+      } else if (count < 15) {
+        spicyLevel.innerText = 'ระดับ 2 🌶️🌶️';
+      } else if (count < 30) {
+        spicyLevel.innerText = 'ระดับ 3 🌶️🌶️🌶️ (แซ่บไฟลุก)';
+      } else {
+        spicyLevel.innerText = 'ระดับ MAX 🔥🍉 (สวยทะลุจักรวาล)';
+      }
+
+      // Random comment
+      const randomQuote = feedQuotes[Math.floor(Math.random() * feedQuotes.length)];
+      quoteText.innerText = `"${randomQuote}"`;
+
+      // Play Sound
+      try { playBoingSound(); } catch (err) {}
+
+      // Confetti burst
+      confetti({
+        particleCount: 25,
+        spread: 60,
+        origin: { y: 0.6 },
+        colors: ['#FF2A55', '#10B981', '#FF6489', '#047857']
+      });
+    });
+
+    // Random Fortune Generator
+    const fortunes = [
+      "ชีวิตนี้ไม่มีอะไรหวานเท่ารอยยิ้มของฉัน... ยกเว้นแตงโมลูกนี้! 🍉💖",
+      "ความสวยระดับ 21 ปี แตงโมทั้งสวนก็หยุดความเซ็กซี่ไม่ได้! ✨",
+      "กินคาวไม่กินแตงโม ระวังโดนสาวสวยมองค้อนนะจ๊ะ 😜",
+      "มีแตงโมในมือ ดีกว่ามีคนใจดำในใจ 🍉💅",
+      "แตงโมยังมีเม็ด แต่คนสวยเซ็กซี่คนนี้เด็ดไม่มีใครเกิน! 🔥",
+      "วันไหนเหนื่อยล้า แค่ได้แตงโมเย็นๆ กับรอยยิ้มหวานๆ ก็หายเหนื่อยแล้ว 🍉🥰"
+    ];
+
+    const randomQuoteBtn = document.getElementById('randomQuoteBtn');
+    const fortuneText = document.getElementById('fortuneText');
+
+    randomQuoteBtn.addEventListener('click', () => {
+      const idx = Math.floor(Math.random() * fortunes.length);
+      fortuneText.style.opacity = '0';
+      setTimeout(() => {
+        fortuneText.innerText = `"${fortunes[idx]}"`;
+        fortuneText.style.opacity = '1';
+      }, 150);
+    });
+  </script>
+</body>
+</html>
